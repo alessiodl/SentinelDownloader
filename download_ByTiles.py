@@ -37,7 +37,7 @@ if len(products) > 0:
 		
 	print ("\n"+"INIZIO DOWNLOAD: "+datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 	
-	api.download_all(products,os.path.join(download_dir,'2018_05'))
+	api.download_all(products,download_dir)
 	
 	print ("\n"+"FINE DOWNLOAD: "+datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 else:
