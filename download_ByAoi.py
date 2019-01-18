@@ -42,5 +42,5 @@ for p in productList:
 					 
 # Download
 print ("\n"+"INIZIO DOWNLOAD: "+datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-api.download_all(productList)
+api.download_all(productList,download_dir)
 print ("\n"+"FINE DOWNLOAD: "+datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
