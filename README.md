@@ -5,7 +5,7 @@ https://scihub.copernicus.eu/userguide/OpenSearchAPI
 Dipende dal pacchetto **Sentinelsat**, installabile via **pip**<br/>
 https://sentinelsat.readthedocs.io/en/stable/index.html
 
-## Esempio di utilizzo
+### Esempio di utilizzo con Anaconda
 
 >I comandi possono differire sulla base del sistema operativo in uso.<br/> 
 >Fare riferimento alla guida di Anaconda.
