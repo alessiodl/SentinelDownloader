@@ -12,7 +12,7 @@ https://sentinelsat.readthedocs.io/en/stable/index.html
 
 Installare Anaconda e creare un ambiente dedicato con:
 ```
-conda create --name sentinelenv
+conda create --name sentinelenv pip
 ```
 
 Attivare l'ambiente:
