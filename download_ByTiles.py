@@ -36,9 +36,7 @@ if len(products) > 0:
 		# print(api.get_product_odata(p, full=False))
 		
 	print ("\n"+"INIZIO DOWNLOAD: "+datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-	
 	api.download_all(products,download_dir)
-	
 	print ("\n"+"FINE DOWNLOAD: "+datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 else:
 	print("NON CI SONO IMMAGINI DA SCARICARE")
