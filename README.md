@@ -4,3 +4,28 @@ https://scihub.copernicus.eu/userguide/OpenSearchAPI
 
 Dipende dal pacchetto **Sentinelsat**, installabile via **pip**<br/>
 https://sentinelsat.readthedocs.io/en/stable/index.html
+
+## Esempio di utilizzo
+
+>I comandi possono differire sulla base del sistema operativo in uso.<br/> 
+>Fare riferimento alla guida di Anaconda.
+
+Installare Anaconda e creare un ambiente dedicato con:
+```
+conda create --name sentinelenv
+```
+
+Attivare l'ambiente:
+```
+conda activate sentinelenv
+```
+
+Installare sentinelsat:
+```
+pip install sentinelsat
+```
+
+Lanciare uno degli script per il download:
+```
+python download_ByTiles.py
+```
