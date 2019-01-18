@@ -11,7 +11,7 @@ download_dir = "img"
 # Connessione alle API
 username = "mySciHubUsername"
 password = "mySciHubPassword"
-api 	   = SentinelAPI( username, password )
+api 	 = SentinelAPI( username, password )
 
 # Connect to the API
 api = SentinelAPI( username, password, "https://scihub.copernicus.eu/dhus" )
@@ -28,10 +28,9 @@ for fp in footprintList:
 	print(fp)
 	# Query
 	products=api.query(fp,
-						date=('20181219', date(2018, 12, 29)),
-						platformname='Sentinel-2',
-						producttype='S2MSI2A',
-						cloudcoverpercentage=(0, 30))
+			date=('20181219', date(2018, 12, 29)),
+			platformname='Sentinel-2',
+			producttype='S2MSI2A')
 	# Salva i product ID nella productList			
 	for product in products:
 		productList.append(product)
