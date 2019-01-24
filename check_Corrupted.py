@@ -1,6 +1,6 @@
 # Import
-from collections import OrderedDict
 from sentinelsat import SentinelAPI
+from datetime import date, datetime
 import os
 
 # Connessione alle API
@@ -23,7 +23,7 @@ IDs = [ value[0]['id'] for key,value in responseDict.items() ]
 download_dir = os.path.join(archivio,mese)
 # Download
 if len(IDs) > 0:
-	print("Prodotti corrotti da riscaricare: "+str(len(products))+"\n")
+	print("Prodotti corrotti da riscaricare: "+str(len(IDs))+"\n")
 	for p in IDs:
 		print("Prod ID: "+p)
 
