@@ -18,7 +18,6 @@ productFilesPath = [ os.path.join(imgPath,file) for file in imgFiles ]
 responseDict = api.check_files(productFilesPath)
 # Popola una lista con gli id dei download corrotti da riscaricare
 IDs = [ value[0]['id'] for key,value in responseDict.items() ]
-print(IDs)
 
 # Directory di download
 download_dir = os.path.join(archivio,mese)
