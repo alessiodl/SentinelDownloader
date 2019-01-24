@@ -1,5 +1,5 @@
 # SentinelDownloader
-Script Python per lo scarico dei dati Sentinel-2 da **Copernicus Open Access Hub**<br/>
+Collezione di script Python per lo scarico dei dati Sentinel-2 da **Copernicus Open Access Hub**<br/>
 https://scihub.copernicus.eu/userguide/OpenSearchAPI
 
 Dipende dal pacchetto **Sentinelsat**, installabile via **pip**<br/>
