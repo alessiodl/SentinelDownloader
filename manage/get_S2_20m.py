@@ -1,4 +1,3 @@
-
 '''
 Titolo: GET_S2_20m.py
 Autore: Alessio Di Lorenzo
