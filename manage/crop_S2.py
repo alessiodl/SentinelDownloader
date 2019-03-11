@@ -16,7 +16,7 @@ import json
 
 # Dati di input
 raster_data = r'C:\Users\a.dilorenzo\Desktop\S2_WD'
-vector_data = r'D:\Python_scripts\SENTINEL\trappole_envelopes_25.geojson'
+vector_data = r'C:\Users\a.dilorenzo\Desktop\data\trappole_envelopes_25.geojson'
 
 # Directory di output
 cropped_dir = r'C:\Users\a.dilorenzo\Desktop\CROPPED'
