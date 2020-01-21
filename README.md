@@ -27,5 +27,5 @@ pip install sentinelsat
 
 Lanciare uno degli script per il download:
 ```
-python download_ByTiles.py
+python download_BySchema.py
 ```
