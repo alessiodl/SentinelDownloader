@@ -41,10 +41,10 @@ api = SentinelAPI( username, password )
 
 # Query arguments
 query_kwargs = {
-        'platformname': 'Sentinel-2',
-        'producttype': 'S2MSI2A',
-        'date': (fromDate, toDate)
-	}
+    'platformname': 'Sentinel-2',
+    'producttype': 'S2MSI2A',
+    'date': (fromDate, toDate)
+}
 
 # Ricerca immagini per ogni tile
 products = OrderedDict()
