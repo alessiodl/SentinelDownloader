@@ -9,7 +9,7 @@ band = ds.GetRasterBand(1)
 # Trasformazione in array
 arr = band.ReadAsArray().astype('f4')
 # print(arr)
-# Apply equation
+# Apply normalization
 data = arr/10000
 # Save array, using ds as a prototype
 gdal_array.SaveArray(data.astype("float32"), outputImage, "GTIFF", ds)
