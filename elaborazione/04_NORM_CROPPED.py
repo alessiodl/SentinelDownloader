@@ -4,9 +4,9 @@ inputImage  = r'C:\Users\a.dilorenzo\Desktop\T33TUG_20180101T100409_B02_006AQ354
 outputImage = r'C:\Users\a.dilorenzo\Desktop\T33TUG_20180101T100409_B02_006AQ354_NORM.tiff'
 # Dataset
 ds = gdal.Open(inputImage)
-# Banda
+# Band
 band = ds.GetRasterBand(1)
-# Trasformazione in array
+# Read as array
 arr = band.ReadAsArray().astype('f4')
 # print(arr)
 # Apply normalization
