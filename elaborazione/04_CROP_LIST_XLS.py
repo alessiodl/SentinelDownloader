@@ -32,6 +32,7 @@ for root, dirs, files in os.walk(cropped_dir):
 			banda = name[23:26]
 			azienda = name[27:35]
 			immagine = name.replace(".png","")
+			immagine = name.replace(".tiff","")
 			data = giorno+"/"+mese+"/"+anno
 
 			#print("{},{},{},{},{},{},{},{},{}".format(regione, img, satellite, anno, mese, giorno, ora, orbita,tile))
