@@ -106,4 +106,5 @@ for image in images:
 		# Rimozione del crop non normalizzato
 		if os.path.exists(cropped_image):
 			os.remove(cropped_image)
+            os.remove(os.path.join(cropped_path, cropped_name+".png.aux.xml")
 print("Fine crop: "+datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
