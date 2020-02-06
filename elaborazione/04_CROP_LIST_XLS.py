@@ -21,7 +21,7 @@ df = pd.DataFrame(columns=rowTitles)
 images = []
 for root, dirs, files in os.walk(cropped_dir):
 	for name in files:
-		if name.endswith(".png"):
+		if name.endswith(".png") or name.endswith(".tiff"):
 			nome_file = name
 			regione = regione.upper()
 			tile = name[0:6]
