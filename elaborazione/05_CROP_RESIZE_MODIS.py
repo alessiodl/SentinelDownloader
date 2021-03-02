@@ -21,7 +21,7 @@ if not os.path.exists(cropped_dir):
 
 print("Inizio crop: "+datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
-image_folders = [os.path.join(raster_root ,dir) for dir in os.listdir(raster_root) if os.path.isdir(os.path.join(raster_root, dir))]
+image_folders = [os.path.join(raster_root, dir) for dir in os.listdir(raster_root) if os.path.isdir(os.path.join(raster_root, dir))]
 
 images = []
 for image_folder in image_folders:
