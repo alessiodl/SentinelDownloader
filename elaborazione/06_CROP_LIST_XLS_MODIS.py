@@ -10,7 +10,7 @@ import datetime
 import openpyxl
 import pandas as pd
 
-regione = 'ABRUZZO'
+regione = 'MOLISE'
 anno = '2019'
 cropped_dir = os.path.join(os.path.join(
     r'C:\Users\a.dilorenzo\Desktop\MODIS_TEST\out', anno), regione)

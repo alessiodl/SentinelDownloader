@@ -8,7 +8,7 @@ import json
 from datetime import date, datetime
 
 anno = '2019'
-punti_wgs84 = gpd.read_file(r'\\izsfs\dati-gis\SENTINEL2_PUNTI\zanzare_2019.shp')
+punti_wgs84 = gpd.read_file(r'\\izsfs\dati-gis\SENTINEL2_PUNTI\zanzare_2020.shp')
 raggio_metri = 2240
 
 raster_root = r'\\nas-covepi2\gis2\dati_GIS\dati_Italia\dati_satellitari\MODIS\MOD11A2'  # lettura dati da NAS-COVEPI2
