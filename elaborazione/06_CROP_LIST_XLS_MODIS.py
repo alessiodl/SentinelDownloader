@@ -11,9 +11,10 @@ import openpyxl
 import pandas as pd
 
 regione = 'MOLISE'
-anno = '2019'
-cropped_dir = os.path.join(os.path.join(
-    r'C:\Users\a.dilorenzo\Desktop\MODIS_TEST\out', anno), regione)
+anno = '2020'
+
+
+cropped_dir = os.path.join(os.path.join(r'C:\Users\a.dilorenzo\Desktop\MODIS_TEST\out', anno), regione)
 
 rowTitles = ['NOME_FILE', 'REGIONE', 'PRODOTTO', 'ANNO',
     'MESE', 'GIORNO', 'AZIENDA', 'IMMAGINE', 'DATA']
@@ -28,7 +29,7 @@ for root, dirs, files in os.walk(cropped_dir):
 			product = 'MOD11A2 - '+name[3:-21]
 			mese = name[10:12]
 			giorno = name[12:14]
-			azienda = name[-11:-4]
+			azienda = name[-12:-4]
 			immagine = name.replace(".tif", "")
 			data = giorno+"/"+mese+"/"+anno
 
