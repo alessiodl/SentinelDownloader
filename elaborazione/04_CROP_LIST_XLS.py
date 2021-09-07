@@ -11,8 +11,8 @@ import datetime
 import openpyxl
 import pandas as pd
 
-regione = 'TOSCANA'
-anno = '2019'
+regione = 'MOLISE'
+anno = '2020'
 cropped_dir = os.path.join(os.path.join(r'\\izsfs\dati-gis\SENTINEL2_20M_CROPPED',anno), regione)
 
 rowTitles = ['NOME_FILE','REGIONE','TILE','ANNO','MESE','GIORNO','ORA','BANDA','AZIENDA','IMMAGINE','DATA']
