@@ -4,7 +4,7 @@ import datetime
 import openpyxl
 import pandas as pd
 
-anno = '2020'
+anno = '2021'
 cropped_dir = os.path.join(r'\\izsfs\dati-gis\SENTINEL2_20M_CROPPED', anno)
 
 if os.path.isfile(os.path.join(cropped_dir, 'tot_'+anno+'.xlsx')):
